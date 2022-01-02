@@ -11,9 +11,14 @@ os_name = platform.system()
 def print_OSName():
     print(os_name)
 
-# Use CTkButton instead of tkinter Button
-test_button = customtkinter.CTkButton(master=root_tk, corner_radius=10, command=print_OSName, text="Print OS Name")
-test_button.place(relx=0.5, rely=0.5, anchor=tkinter.CENTER)
+def test_command():
+    print("test button 1")
+
+OSName_button = customtkinter.CTkButton(master=root_tk, corner_radius=10, command=print_OSName, text="Print OS Name")
+OSName_button.place(relx=0.07, rely=0.05, anchor=tkinter.CENTER)
+
+test1_button = customtkinter.CTkButton(master=root_tk, corner_radius=10, command=test_command, text="test button", width=225, height=100)
+test1_button.place(relx=0.2, rely=0.25, anchor=tkinter.CENTER)
 
 root_tk.mainloop()
 
