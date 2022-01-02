@@ -17,8 +17,8 @@ def test_command():
 OSName_button = customtkinter.CTkButton(master=root_tk, corner_radius=10, command=print_OSName, text="Print OS Name")
 OSName_button.place(relx=0.07, rely=0.05, anchor=tkinter.CENTER)
 
-test1_button = customtkinter.CTkButton(master=root_tk, corner_radius=10, command=test_command, text="test button", width=225, height=100)
-test1_button.place(relx=0.2, rely=0.25, anchor=tkinter.CENTER)
+test_button1 = customtkinter.CTkButton(master=root_tk, corner_radius=10, command=test_command, text="test button", width=225, height=100)
+test_button1.place(relx=0.2, rely=0.25, anchor=tkinter.CENTER)
 
 root_tk.mainloop()
 
