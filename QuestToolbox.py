@@ -56,6 +56,8 @@ os_name = platform.system()
 os.system("cd _file_/platform-tools-windows/platform-tools/")
 os.system("adb start-server")
 
+
+# button functions
 def print_OSName():
     print(os_name)
 
@@ -70,7 +72,7 @@ def adbtest():
     print(client.version())
     
 
-
+# buttons
 OSName_button = customtkinter.CTkButton(master=root_tk, corner_radius=10, command=print_OSName, text="Check OS")
 OSName_button.place(relx=0.07, rely=0.05, anchor=tkinter.CENTER)
 
