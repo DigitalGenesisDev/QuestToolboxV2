@@ -88,7 +88,7 @@ adbtest_button1.place(relx=0.42, rely=0.27, anchor=tkinter.CENTER)
 root_tk.mainloop()
 
 # Changes Recording Res and FPS to 1920x1080 60fps
-# Testing
+# Testing test
 # adb shell setprop debug.oculus.capture.width 1080
 # adb shell setprop debug.oculus.capture.height 1920
 # adb shell setprop debug.oculus.capture.bitrate 10000000
