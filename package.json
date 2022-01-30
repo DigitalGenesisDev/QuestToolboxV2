@@ -1,0 +1,35 @@
+{
+  "name": "questtoolbox",
+  "version": "1.0.0",
+  "description": "QuestToolbox is the ultimate Meta Quest ADB client for developers and everyday users.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MajoraCrew/QuestToolboxV2.git"
+  },
+  "keywords": [
+    "Oculus",
+    "Meta Quest",
+    "Meta Quest 2",
+    "Meta",
+    "Quest 2",
+    "Oculus Quest",
+    "Oculus Quest 2",
+    "VR",
+    "Android",
+    "ADB",
+    "Virtual Reality"
+  ],
+  "author": "CADIndie, Mitchv2020",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MajoraCrew/QuestToolboxV2/issues"
+  },
+  "homepage": "https://github.com/MajoraCrew/QuestToolboxV2#readme",
+  "devDependencies": {
+    "electron": "^16.0.8"
+  }
+}
