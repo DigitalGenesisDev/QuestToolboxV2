@@ -1,2 +1,2 @@
 # QuestToolboxV2
-A newer remade version of QuestToolbox
+QuestToolbox is the ultimate Meta Quest ADB client for developers and everyday users.
