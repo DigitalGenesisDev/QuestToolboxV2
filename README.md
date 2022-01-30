@@ -1,2 +1,2 @@
-# QuestToolboxPython
-Python GUI version of the batch QuestToolbox
+# QuestToolboxV2
+A newer remade version of QuestToolbox made with React
