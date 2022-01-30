@@ -7,4 +7,4 @@ const createWindow = () => {
     })
   
     win.loadFile('index.html')
-  }
+  } Str
