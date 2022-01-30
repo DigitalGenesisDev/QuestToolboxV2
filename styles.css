@@ -9,21 +9,29 @@ body {
 
 .MM_button {
     -webkit-app-region: no-drag;
+    padding-bottom: 10px;
     border-color: black;
     border-radius: 25px;
-    padding: 20px;
+    font-weight: bold;
     width: 160px;
     height: 100px;
+    box-shadow: inset 0px -7px gray;
     font-family: 'Open Sans', sans-serif;
+    transition: 0.2s;
 }
 
 .MM_button:hover {
     color: white;
-    background-color: turquoise;
+    border-radius: 15px;
+    background-color: #80d2de;
     cursor: pointer;
+    transition: 0.2s;
 }
 
-.MM_button:hover:click {
+.MM_button:hover:active {
     color: black;
     background-color: white;
+    padding-bottom: 0px;
+    box-shadow: inset 0px 0px gray;
+    transition: 0.1s;
 }
