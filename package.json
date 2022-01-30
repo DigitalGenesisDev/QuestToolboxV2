@@ -4,7 +4,7 @@
   "description": "QuestToolbox is the ultimate Meta Quest ADB client for developers and everyday users.",
   "main": "main.js",
   "scripts": {
-    "test": "echo test"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
