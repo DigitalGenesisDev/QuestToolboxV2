@@ -1,59 +1,24 @@
+from ntpath import realpath
+import pyinstaller
 import tkinter
 import customtkinter
 import platform
-import discord_rpc
 import time
 from ppadb.client import Client as AdbClient
 import os
 
-def readyCallback(current_user):
-    print('Our user: {}'.format(current_user))
-
-def disconnectedCallback(codeno, codemsg):
-    print('Disconnected from Discord rich presence RPC. Code {}: {}'.format(
-        codeno, codemsg
-    ))
-
-def errorCallback(errno, errmsg):
-    print('An error occurred! Error {}: {}'.format(
-        errno, errmsg
-    ))
-
-def ADB():
     
-
-        # Note: 'event_name': callback
-    callbacks = {
-            'ready': readyCallback,
-            'disconnected': disconnectedCallback,
-            'error': errorCallback,
-        }
-    discord_rpc.initialize('928736720864821358', callbacks=callbacks, log=True)
-    start = time.time()
-    print(start)
-    discord_rpc.update_connection()
-    discord_rpc.run_callbacks()
-    discord_rpc.update_presence(
-            **{
-                'details': 'Main Menu',
-                'start_timestamp': start,
-                'large_image_key': 'toolboxlogo'
-            }
-    )
-    discord_rpc.update_connection()
-    discord_rpc.run_callbacks()
-    
-
 root_tk = customtkinter.CTk()  # create the customTk window
 root_tk.geometry("1280x720")
 root_tk.title("QuestToolbox")
 customtkinter.set_appearance_mode("System")
 
 
-
+def ADB():()
 os_name = platform.system()
-
-os.system("cd _file_/platform-tools-windows/platform-tools/")
+cwd = os.getcwd()
+print("Current working directory: {0}".format(cwd))
+##os.chdir("/platform-tools-windows/platform-tools")
 os.system("adb start-server")
 
 
