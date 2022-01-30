@@ -1,0 +1,29 @@
+body {
+    -webkit-app-region: drag;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#title {
+    text-align: center;
+}
+
+.MM_button {
+    -webkit-app-region: no-drag;
+    border-color: black;
+    border-radius: 25px;
+    padding: 20px;
+    width: 160px;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.MM_button:hover {
+    color: white;
+    background-color: turquoise;
+    cursor: pointer;
+}
+
+.MM_button:hover:click {
+    color: black;
+    background-color: white;
+}
