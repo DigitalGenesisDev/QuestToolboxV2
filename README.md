@@ -1,2 +1,2 @@
 # QuestToolboxV2
-A newer remade version of QuestToolbox made with React
+A newer remade version of QuestToolbox
