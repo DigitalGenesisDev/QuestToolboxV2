@@ -21,31 +21,10 @@ body {
     transition: 0.2s;
 }
 
-.MM_button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.2s;
-  }
-
-.MM_button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 1;
-    top: 0;
-    right: 100px;
-    transition: 0.2s;
-}
-
-.MM_button:hover span {
-    padding-left: 30px;
-    transition: 0.2s;
-}
-
 .MM_button:hover {
     color: white;
     border-radius: 15px;
-    background-color: #41bb8c;
+    background-color: #00a2ed;
     cursor: pointer;
     transition: 0.2s;
 }
