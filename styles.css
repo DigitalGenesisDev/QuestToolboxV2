@@ -10,20 +10,42 @@ body {
 .MM_button {
     -webkit-app-region: no-drag;
     padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
     border-color: black;
-    border-radius: 25px;
+    border-width: 3px;
     font-weight: bold;
-    width: 160px;
-    height: 100px;
+    width: 170px;
+    height: 90px;
     box-shadow: inset 0px -7px gray;
     font-family: 'Open Sans', sans-serif;
+    transition: 0.2s;
+}
+
+.MM_button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+  }
+
+.MM_button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    right: 100px;
+    transition: 0.2s;
+}
+
+.MM_button:hover span {
+    padding-left: 30px;
     transition: 0.2s;
 }
 
 .MM_button:hover {
     color: white;
     border-radius: 15px;
-    background-color: #80d2de;
+    background-color: #41bb8c;
     cursor: pointer;
     transition: 0.2s;
 }
