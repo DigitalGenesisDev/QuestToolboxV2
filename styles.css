@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 
-.MM_button {
+.adb {
     -webkit-app-region: no-drag;
     padding-bottom: 10px;
     background-color: rgb(255, 255, 255);
@@ -21,7 +21,7 @@ body {
     transition: 0.2s;
 }
 
-.MM_button:hover {
+.adb:hover {
     color: white;
     border-radius: 15px;
     background-color: #00a2ed;
@@ -29,7 +29,7 @@ body {
     transition: 0.2s;
 }
 
-.MM_button:hover:active {
+.adb:hover:active {
     color: black;
     background-color: white;
     padding-bottom: 0px;

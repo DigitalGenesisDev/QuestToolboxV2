@@ -31,5 +31,9 @@
   "homepage": "https://github.com/MajoraCrew/QuestToolboxV2#readme",
   "devDependencies": {
     "electron": "^16.0.8"
+  },
+  "dependencies": {
+    "@devicefarmer/adbkit": "^3.2.1",
+    "jquery": "^3.6.0"
   }
 }

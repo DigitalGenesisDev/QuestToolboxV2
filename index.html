@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <link rel="stylesheet" href="styles.css">
-    <title>QuestToolbox</title>
-  </head>
-  <body>
-    <style>
+   <head>
+      <meta charset = "UTF-8">
+      <title>QuestToolbox</title>
+      <link rel="stylesheet" href="styles.css">
+      <title>QuestToolbox</title>
+      </head>
+   
+   <style>
       @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-    </style>
+   </style>
 
-    Quest Local IP: <span id="adbService.deviceIp"></span>
-
-    <h1 id="title">QuestToolbox</h1>
-
-    <button type="button" class="MM_button" id="testButton"><span>Test Button</span></button>
-
-    <script src="./renderer.js"></script>
-  </body>
+   <body>
+      <div class = "container">
+         <h1 id="title">QuestToolbox</h1>
+         <h3 id = "click-counter"></h3>
+         <button class = "adb" id = "countbtn">Click here</button>
+         <button type="button" class="adb" id="adbtest"><span>ADB Test</span></button>
+         <script src = "./view.js" ></script>
+      </div>
+   </body>
 </html>
