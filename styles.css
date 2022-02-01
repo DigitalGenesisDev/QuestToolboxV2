@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 
-.adb {
+button {
     -webkit-app-region: no-drag;
     padding-bottom: 10px;
     background-color: rgb(255, 255, 255);
@@ -21,7 +21,7 @@ body {
     transition: 0.2s;
 }
 
-.adb:hover {
+button:hover {
     color: white;
     border-radius: 15px;
     background-color: #00a2ed;
@@ -29,7 +29,7 @@ body {
     transition: 0.2s;
 }
 
-.adb:hover:active {
+button:active {
     color: black;
     background-color: white;
     padding-bottom: 0px;

@@ -2,22 +2,25 @@
 <html>
    <head>
       <meta charset = "UTF-8">
-      <title>QuestToolbox</title>
       <link rel="stylesheet" href="styles.css">
       <title>QuestToolbox</title>
-      </head>
-   
+   </head>
+
    <style>
       @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
    </style>
 
    <body>
-      <div class = "container">
-         <h1 id="title">QuestToolbox</h1>
-         <h3 id = "click-counter"></h3>
-         <button class = "adb" id = "countbtn">Click here</button>
-         <button type="button" class="adb" id="adbtest"><span>ADB Test</span></button>
-         <script src = "./view.js" ></script>
-      </div>
+      Quest Local IP: <span id="adbService.deviceIp"></span>
+
+      <h1 id="title">QuestToolbox</h1>
+
+      <h3 id="click-counter"></h3>
+
+      <button type="button" id="countbtn">Click here</button>
+      <button type="button" class="adb" id="ADBTest"><span>ADB Test</span></button>
+
+      <script src="./view.js" ></script>
+      <script src="./preload.js" ></script>
    </body>
 </html>
