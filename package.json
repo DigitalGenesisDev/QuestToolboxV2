@@ -34,6 +34,9 @@
   },
   "dependencies": {
     "@devicefarmer/adbkit": "^3.2.1",
-    "jquery": "^3.6.0"
+    "browserify": "^17.0.0",
+    "document": "^0.4.7",
+    "jquery": "^3.6.0",
+    "uniq": "^1.0.1"
   }
 }
