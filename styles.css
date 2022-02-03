@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
 body {
     -webkit-app-region: drag;
     font-family: 'Open Sans', sans-serif;
@@ -7,7 +10,7 @@ body {
     text-align: center;
 }
 
-button {
+.menu_button {
     -webkit-app-region: no-drag;
     padding-bottom: 10px;
     background-color: rgb(255, 255, 255);
@@ -18,21 +21,20 @@ button {
     height: 90px;
     box-shadow: inset 0px -7px gray;
     font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
     transition: 0.2s;
 }
 
-button:hover {
+.menu_button:hover {
     color: white;
-    border-radius: 15px;
     background-color: #00a2ed;
     cursor: pointer;
     transition: 0.2s;
 }
 
-button:active {
+.menu_button:hover:active {
     color: black;
     background-color: white;
-    padding-bottom: 0px;
     box-shadow: inset 0px 0px gray;
     transition: 0.1s;
 }
