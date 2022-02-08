@@ -21,6 +21,7 @@ body {
     height: 90px;
     box-shadow: inset 0px -7px gray;
     font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
     border-radius: 10px;
     transition: 0.2s;
 }
