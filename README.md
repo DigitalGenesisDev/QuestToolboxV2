@@ -1,7 +1,7 @@
 # QuestToolboxV2
 QuestToolbox is the ultimate Meta Quest ADB client for developers and everyday users.
 
-# Features
+# Features (currently work in progress)
 - Change Recordings Resolution and FPS (FPS currently unstable/broken)
 - Stream your quest screen to your PC with a custom bitrate and FPS
 - Enable Wired ALVR
