@@ -3,7 +3,6 @@ const url = require('url')
 const path = require('path')
 const os = require('os')
 
-
 let win
 
 function createWindow() {
