@@ -1,0 +1,22 @@
+{
+  "name": "questtoolboxv2",
+  "version": "1.0.0",
+  "description": "QuestToolbox is the ultimate Meta Quest ADB client for developers and everyday users.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gusbunce@github.com/MajoraDev/QuestToolboxV2.git"
+  },
+  "author": "Majora Studios",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/MajoraDev/QuestToolboxV2/issues"
+  },
+  "homepage": "https://github.com/MajoraDev/QuestToolboxV2#readme",
+  "dependencies": {
+    "electron": "^18.0.3"
+  }
+}
