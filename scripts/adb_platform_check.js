@@ -1,9 +1,9 @@
+const os = require('os');
 const platform = os.platform()
-const document = require('jquery')
-const sysInfoBtn = document.getElementById('sys-info')
+const sysInfoBtn = document.getElementById('got-sys-info')
 
 sysInfoBtn.addEventListener('click', function () {
-    const message = 'Your system ADB platform is set to: ${platform}'
-    document.getElementById('got-sys-info').innerHTML = message
+    const message = `Your system ADB platform is set to: ${platform}`
+    document.getElementById('got-sys-info').innerText = message
     console.log(message)
  })
