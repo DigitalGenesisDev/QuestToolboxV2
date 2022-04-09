@@ -1,23 +1,60 @@
 {
   "name": "questtoolboxv2",
+  "productName": "questtoolboxv2",
   "version": "1.0.0",
-  "description": "QuestToolbox is the ultimate Meta Quest ADB client for developers and everyday users.",
-  "main": "main.js",
+  "description": "My Electron application description",
+  "main": "src/index.js",
   "scripts": {
-    "test": "electron .",
-    "start": "electron ."
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gusbunce@github.com/MajoraDev/QuestToolboxV2.git"
+  "keywords": [],
+  "author": {
+    "name": "Gus Bunce",
+    "email": "bunce627@gmail.com"
   },
-  "author": "Majora Studios",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/MajoraDev/QuestToolboxV2/issues"
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "questtoolboxv2"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
   },
-  "homepage": "https://github.com/MajoraDev/QuestToolboxV2#readme",
   "dependencies": {
-    "electron": "^18.0.3"
+    "@devicefarmer/adbkit": "^3.2.1",
+    "adbkit": "^2.11.1",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.63",
+    "@electron-forge/maker-deb": "^6.0.0-beta.63",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.63",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.63",
+    "@electron-forge/maker-zip": "^6.0.0-beta.63",
+    "electron": "18.0.3"
   }
 }
